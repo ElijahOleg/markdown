@@ -9,7 +9,7 @@
       var app = angular.module("ghost", []);
       app.controller("fsCtrl", function($scope, $http, $sce) {
         $scope.getMarkdown = function() {
-        console.log($scope.htmlText);
+          console.log($scope.htmlText);
           console.log("hi")
           $http.get("/markdown/" + encodeURIComponent($scope.htmlText)).success(function(data) {
             console.log(data);

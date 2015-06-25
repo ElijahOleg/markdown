@@ -5,7 +5,7 @@ var fs = require("fs"),
     marked = require('marked');
 
 
-http.createServer(responseHandler).listen(8888);
+http.createServer(responseHandler).listen(process.env.PORT);
 
 
 function responseHandler(req, res) {
