@@ -1,0 +1,103 @@
+.col-lg-6 {
+  background-color: blue;
+}
+#markdown-content-container {
+  position: absolute;
+  color: transparent;
+  overflow: hidden;
+  white-space: pre-wrap;
+  border: 0px solid rgb(60, 64, 67);
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 581px;
+  width: 551.5px;
+  margin: 0px;
+  z-index: 0;
+  padding: 62px 20px 36px;
+  top: 0px;
+  left: 0px;
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+}
+#actual-markdown-content {
+  display: inline-block;
+  color: transparent;
+  overflow: hidden;
+  text-align: left;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  white-space: pre-wrap;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, 'Liberation Mono', Menlo, Courier, monospace;
+  letter-spacing: normal;
+  text-shadow: none;
+  height: 581px;
+}
+div#markdown-content-container{
+  width: 50%;
+  background-color: wheat;
+  position: initial;
+}
+div#preview-content-container{
+  width: 50%;
+  background-color: wheat;
+  position: relative;
+}
+#preview-actual-content {
+  display: inline-block;
+  color: transparent;
+  overflow: hidden;
+  text-align: right;
+  float: initial;
+  clear: none;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  white-space: pre-wrap;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 25px;
+  font-size: 16px;
+  font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, 'Liberation Mono', Menlo, Courier, monospace;
+  letter-spacing: normal;
+  text-shadow: none;
+  height: 581px;
+}
+.entry-preview-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 60px 40px 37px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+section.entry-preview {
+    float: right;
+}
